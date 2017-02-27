@@ -1,25 +1,9 @@
-# ReduxSimpleStarter
+# MyTube
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
-###Getting Started###
 
-There are two methods for getting started with this repo.
+## A YouTube style video search, but better.!
 
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Using react and redux.
 
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
+The Search contains a Lodash method called debounce which pauses for 600ms after you last keystroke before requesting videos from YouTube via their API.
